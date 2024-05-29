@@ -1,0 +1,63 @@
+@media screen and (max-width:425px){
+    .prheader .logo img{
+        width: 70px;
+    }
+
+    .pname h2{
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: normal;
+    }
+
+    nav ul{
+        display: '';
+    }
+    .show{
+        margin-top: -80px;
+    }
+
+    .show .abt{
+        height: 250px;
+    }
+
+    .show .img_abt{
+        height: 250px;
+    }
+
+    .abt h1{
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 3px;
+        line-height: 25px;
+    }
+
+    .abt h3{
+        font-weight: bold;
+    }
+
+    .img_abt h1{
+        font-size: 20px;
+
+    }
+    .contianer{
+        display:inline-block;
+        /* grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+     */
+    }
+
+
+    .shirt{
+        width: 70%;
+        margin-top: 5px;
+    }
+
+    .old-pr{
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+
+    .shirt img{
+        margin-right: 30px;
+    }
+}

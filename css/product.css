@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.prheader{
+    width: 100%;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prheader .logo  img{
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 2px;
+
+}
+nav{
+    margin-right: 15px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(161, 156, 156);
+}
+.pname h2{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
+
+nav ul li{
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 2s ease-in;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    color: rgb(177, 171, 171);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    
+}
+
+.show{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.show .abt{
+    width: 60%;
+    height: 400px;
+    margin-left: 20px;
+    border:none;
+    border-radius: 10px;
+    background-image:linear-gradient( to right, rgb(132, 132, 250),rgb(28, 28, 252)) ;
+
+}
+
+.show .img_abt{
+    width: 40%;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    
+}
+
+.abt h1{
+    font-weight: bolder;
+    font-size: 60px;
+    color: white;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.abt h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(230, 230, 230);
+}
+
+.img_abt h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img_abt p{
+    color: rgb(197, 192, 192);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.adidas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adidas img{
+    margin-left: 30px;
+}
+.adidas img:last-child{
+    width: 50px;
+}
+
+.most_popular{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.most_popular h1{
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+} 
+
+.contianer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.shirt{
+    width: 30%;
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.shirt img{
+    border-radius: 10px;
+    margin-left:13%;
+
+}
+
+.shirt h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.shirt h4{
+    margin-left: 5px;
+}
+
+.shirt:hover{
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.old_product{
+    width: 100%;
+    align-items: center;
+
+}
+.old_product h1{
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.old-pr{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+.old-pr .shirt{
+    width: 100%;
+}
+#purchases{
+    border:1px solid rgb(206, 200, 200);
+    padding: 10px;
+    border-radius: 10px;
+    color:rgb(20, 20, 20);
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    background-color:transparent;
+}
+
+#purchases:active{
+    box-shadow: 2px 2px 2px 2px lightgray;
+    border:1px solid rgb(141, 139, 139);
+
+}
+
+/* media query */
+
+

@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.acc_head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.acc_head .acc_info h1{
+    color: blue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.acc_head  .acc_info{
+    display: flex;
+    flex-direction:row;
+}
+.acc_head ul{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 15px;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.2 ease-out;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(128, 126, 126);
+    text-underline-offset: 1rem;
+}
+
+.banner{
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+
+}
+
+.profile{
+    position:absolute;
+    width: 40%;
+    height: 400px;
+    top: -550px;
+    right: 360px;
+    margin-top: 20px;
+    margin: 50% auto;
+    background-color: rgb(255,255,255,0.2);
+    border: none;
+    box-shadow: 2px 2px 2px 50% rgb(32, 32, 32);
+} 
+
+.profile .img_profile{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 50%;
+    left:27%;
+}
+
+
+
+.profile h2{
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.productinput{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 300px;
+    /* background-color:rgb(150, 150, 250); */
+
+}
+
+form{
+    width: 60%;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    /* background-color: aqua; */
+    margin-right: auto;
+}
+
+.add-carts{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* background-color: rgb(0, 17, 255); */
+    line-height: 3rem;
+    height: 400px;
+
+}
+
+input{
+    margin-top: 5px;
+}
+
+
+
+
+input[type="text"]{
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(148, 147, 147);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+input[type="submit"]{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: rgb(53, 53, 253);
+    border-radius: 5px;
+}
+
+
+input[type="file"]{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(187, 187, 250);
+}
+
+.cart_demo{
+    width: 100%;
+}
+
+.cart{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border: 1px solid gray;
+    width: 20%;
+    height: 400px;
+    background-color:rgb(255, 255, 255,0.2); 
+    border-radius: 10px;
+
+}
+.pic{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic img{
+    margin-top: 5px;
+    margin-left:24px;
+    border-radius: 5px;
+}
+
+
+.cart h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.cart h3{
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.cart .send{
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgb(46, 243, 243);
+
+}
+
+
+.cart_demo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.cart{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    border: 1px solid gray;
+    width: 50%;
+    height: 400px;
+    /* background-color: aqua; */
+    border-radius: 10px;
+
+}
+.pic{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic img{
+    margin-top: 5px;
+    margin-left:24px;
+    height: 240px;
+    border-radius: 5px;
+}
+
+
+.cart h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.cart h3{
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.cart .send{
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgb(46, 243, 243);
+
+}
+
+.purchases{
+    border:1px solid rgb(206, 200, 200);
+    padding: 10px;
+    border-radius: 10px;
+    color:rgb(20, 20, 20);
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    background-color:transparent;
+}
+
+.purchases:active{
+    box-shadow: 2px 2px 2px 2px lightgray;
+    border:1px solid rgb(141, 139, 139);
+
+}
